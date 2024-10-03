@@ -1,0 +1,155 @@
+body{
+    align-items: flex-start;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    width: 50%;
+    min-width: 400px;
+    min-height: 60%;
+    max-height: 100%;
+    background-color: #FF7F5080;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    outline: 4px solid white;
+    gap: 3vh;
+}
+
+.head-up{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.h2-question{
+    padding: 0px 10%;
+    color: var(--c4);
+}
+
+.img-ques{
+    max-width: 90%;
+    max-height: 35vh;
+}
+
+.head-up-h2{
+    font-size: 2rem;
+}
+
+.head-up-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-bar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 50%;
+    min-width: 80px;
+    height: 4vh;
+    border-radius: 20px;
+    border: solid 2px white;
+}
+
+.progress{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right,#40E0D0, #FF7F50 );
+    border-radius: 20px;
+    transition: width 1s linear;
+}
+
+.span-time{
+    position: absolute;
+    font-size: larger;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 0 black;
+}
+
+.head-up-p{
+    font-size: 1.6rem;
+}
+
+.choices{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.choice{
+    display: flex;
+    width: 95%;
+    height: 20%;
+    gap: 5%;
+    background-color: var(--c2);
+    border-radius: 10px;
+    transition: ease 0.2s;
+}
+
+.choice:hover{
+    box-shadow: 1px 1px 3px 1px white;
+    cursor: pointer;
+}
+
+.prefix{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    width: 10%;
+    height: 100%;
+    color: white;
+    background-color: var(--c3);
+    border-radius: 10px;
+}
+
+.answer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.exit-btn{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    background: none;
+    border: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.exit-btn:hover{
+    cursor: pointer;
+}
+
+.correct{
+    background-color:#4CBB17;
+}
+
+.incorrect{
+    background-color:#E34234cc;
+}
