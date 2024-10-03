@@ -149,11 +149,13 @@
 
 .btns{
     width: 8vw;
+    min-width: 6vw;
     border: solid 3px white;
     color: var(--c4);
     text-shadow: 2px 2px 0 black;
     font-family: Nerko one;
     height: 5vh;
+    min-height: 3vh;
     border-radius: 15px;
     background-color: var(--c3);
     font-size: 1.7rem;
