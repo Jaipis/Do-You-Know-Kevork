@@ -45,7 +45,7 @@
         "category": "Basic"
     },
     {
-        "question": "Kam benet heke bi hayeto",
+        "question": "Kam benet heke Keven bi hayeto",
         "choice1": "1",
         "choice2": "2",
         "choice3": "3",
@@ -54,7 +54,7 @@
         "category": "Basic"
     },
     {
-        "question": "Adde wazno",
+        "question": "Adde wazne",
         "choice1": "60kg",
         "choice2": "66kg",
         "choice3": "70kg",
@@ -63,7 +63,7 @@
         "category": "Basic"
     },
     {
-        "question": "Adde toulo",
+        "question": "Adde toule",
         "choice1": "150cm",
         "choice2": "160cm",
         "choice3": "155cm",
